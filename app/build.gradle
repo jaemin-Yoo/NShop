@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.boostcamp.navershopping'
+    namespace 'com.jaem.navershopping'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.boostcamp.navershopping"
+        applicationId "com.jaem.navershopping"
         minSdk 23
         targetSdk 32
         versionCode 1

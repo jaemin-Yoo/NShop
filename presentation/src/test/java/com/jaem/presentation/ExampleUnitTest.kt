@@ -1,4 +1,4 @@
-package com.boostcamp.data
+package com.jaem.presentation
 
 import org.junit.Test
 
