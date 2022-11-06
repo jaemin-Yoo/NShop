@@ -3,12 +3,16 @@ import com.jaem.buildsrc.Depends
 plugins {
     id("com.android.library")
     kotlin("android")
+    kotlin("kapt")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
     namespace = "com.jaem.presentation"
     compileSdk = Depends.Versions.androidCompileSdkVersion
-
+    buildFeatures {
+        dataBinding = true
+    }
     defaultConfig {
         minSdk = Depends.Versions.minSdkVersion
         targetSdk = Depends.Versions.targetSdkVersion
@@ -46,4 +50,8 @@ dependencies {
     implementation(Depends.Libraries.constraintlayout)
     androidTestImplementation(Depends.Libraries.test_ext_junit)
     androidTestImplementation(Depends.Libraries.espresso_core)
+
+    // Navigation component
+    implementation(Depends.Libraries.navigation_ui_ktx)
+    implementation(Depends.Libraries.navigation_fragment_ktx)
 }

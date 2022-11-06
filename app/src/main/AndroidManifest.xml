@@ -10,7 +10,7 @@
         android:theme="@style/Theme.NaverShopping">
 
         <activity
-            android:name="com.jaem.presentation.MainActivity"
+            android:name="com.jaem.presentation.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

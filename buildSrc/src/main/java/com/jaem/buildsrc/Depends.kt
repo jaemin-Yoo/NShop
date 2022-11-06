@@ -11,9 +11,9 @@ object Depends {
         const val targetSdkVersion = 32
         const val minSdkVersion = 23
         const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        const val constraintLayoutVersion = "2.1.3"
-        const val supportVersion = "1.4.1"
-        const val materialVersion = "1.6.0"
+        const val constraintLayoutVersion = "2.1.4"
+        const val supportVersion = "1.5.1"
+        const val materialVersion = "1.6.1"
         const val coreKtxVersion = "1.7.0"
         const val junitVersion = "4.13.2"
         const val testExtJunitVersion = "1.1.3"
@@ -22,8 +22,7 @@ object Depends {
         const val library = "7.3.1"
 
         const val bottomNavigationVersion = "1.6.0-alpha02"
-        const val navigationFragmentKtxVersion = "2.4.2"
-        const val navigationUiKtxVersion = "2.4.2"
+        const val navigationVersion = "2.5.2"
         const val hiltVersion = "2.40.1"
         const val kotlinGradlePluginVersion = "1.6.10"
         const val roomVersion = "2.2.6"
@@ -35,6 +34,8 @@ object Depends {
         const val gradle = "com.android.tools.build:gradle:${Versions.gradleVersion}"
         const val kotlin_gradle_plugin =
             "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlinGradlePluginVersion}"
+        const val navigation_gradle_plugin =
+            "androidx.navigation:navigation-safe-args-gradle-plugin:${Versions.navigationVersion}"
         const val hilt_android_gradle_plugin =
             "com.google.dagger:hilt-android-gradle-plugin:${Versions.hiltVersion}"
     }
@@ -52,9 +53,9 @@ object Depends {
         const val bottom_navigation =
             "com.google.android.material:material:${Versions.bottomNavigationVersion}"
         const val navigation_fragment_ktx =
-            "androidx.navigation:navigation-fragment-ktx:${Versions.navigationFragmentKtxVersion}"
+            "androidx.navigation:navigation-fragment-ktx:${Versions.navigationVersion}"
         const val navigation_ui_ktx =
-            "androidx.navigation:navigation-ui-ktx:${Versions.navigationUiKtxVersion}"
+            "androidx.navigation:navigation-ui-ktx:${Versions.navigationVersion}"
 
         const val hilt_android =
             "com.google.dagger:hilt-android:${Versions.hiltVersion}"

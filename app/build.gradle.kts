@@ -8,6 +8,9 @@ plugins {
 android {
     namespace = "com.jaem.navershopping"
     compileSdk = Depends.Versions.androidCompileSdkVersion
+    buildFeatures {
+        dataBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.jaem.navershopping"
