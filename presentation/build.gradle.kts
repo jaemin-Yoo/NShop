@@ -44,6 +44,8 @@ dependencies {
     implementation(Depends.Libraries.appcompat)
     implementation(Depends.Libraries.material)
     implementation(Depends.Libraries.constraintlayout)
+
+    testImplementation(Depends.Libraries.junit)
     androidTestImplementation(Depends.Libraries.test_ext_junit)
     androidTestImplementation(Depends.Libraries.espresso_core)
 }
