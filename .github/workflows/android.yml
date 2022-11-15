@@ -15,8 +15,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        distribution: 'zulu'
-        cache: gradle
+        java-package: 'jdk'
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
