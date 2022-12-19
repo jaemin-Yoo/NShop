@@ -28,6 +28,7 @@ object Depends {
         const val roomVersion = "2.2.6"
         const val coroutinesCoreVersion = "1.5.0"
         const val coroutinesAndroidVersion = "1.6.0"
+        const val splashVersion = "1.0.0"
     }
 
     object ClassPaths {
@@ -56,6 +57,9 @@ object Depends {
             "androidx.navigation:navigation-fragment-ktx:${Versions.navigationVersion}"
         const val navigation_ui_ktx =
             "androidx.navigation:navigation-ui-ktx:${Versions.navigationVersion}"
+
+        const val splash_screen =
+            "androidx.core:core-splashscreen:${Versions.splashVersion}"
 
         const val hilt_android =
             "com.google.dagger:hilt-android:${Versions.hiltVersion}"

@@ -54,4 +54,7 @@ dependencies {
     // Navigation component
     implementation(Depends.Libraries.navigation_ui_ktx)
     implementation(Depends.Libraries.navigation_fragment_ktx)
+
+    // Splash Screen
+    implementation(Depends.Libraries.splash_screen)
 }

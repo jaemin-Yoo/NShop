@@ -7,7 +7,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_nshop_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NaverShopping">
+        android:theme="@style/Theme.NaverShopping.Splash">
 
         <activity
             android:name="com.jaem.presentation.MainActivity"
