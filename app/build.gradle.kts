@@ -6,14 +6,14 @@ plugins {
 }
 
 android {
-    namespace = "com.jaem.navershopping"
+    namespace = "com.jaem.nshop"
     compileSdk = Depends.Versions.androidCompileSdkVersion
     buildFeatures {
         dataBinding = true
     }
 
     defaultConfig {
-        applicationId = "com.jaem.navershopping"
+        applicationId = "com.jaem.nshop"
         minSdk = Depends.Versions.minSdkVersion
         targetSdk = Depends.Versions.targetSdkVersion
         versionCode = Depends.Versions.appVersionCode

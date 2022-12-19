@@ -12,7 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "NaverShopping"
+rootProject.name = "NShop"
 include ':app'
 include ':presentation'
 include ':data'

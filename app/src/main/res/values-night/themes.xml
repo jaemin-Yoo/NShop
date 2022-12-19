@@ -1,5 +1,5 @@
 <resources>
-    <style name="Theme.NaverShopping" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.NShop" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/blue</item>
         <item name="colorOnPrimary">@color/white</item>
 
@@ -12,5 +12,15 @@
         <item name="android:textColorSecondary">@color/light_gray</item>
 
         <item name="android:statusBarColor">?android:colorBackground</item>
+    </style>
+
+    <style name="Theme.NShop.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_nshop_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.NShop</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 </resources>
