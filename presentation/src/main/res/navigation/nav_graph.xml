@@ -3,17 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/splash_activity">
+    app:startDestination="@id/main_activity">
 
     <activity
         android:id="@+id/main_activity"
         android:name="com.jaem.presentation.MainActivity"
         android:label="activity_main"
         tools:layout="@layout/activity_main" />
-
-    <activity
-        android:id="@+id/splash_activity"
-        android:name="com.jaem.presentation.SplashActivity"
-        android:label="activity_splash"
-        tools:layout="@layout/activity_splash" />
 </navigation>
