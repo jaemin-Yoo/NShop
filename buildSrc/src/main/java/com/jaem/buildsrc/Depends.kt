@@ -24,7 +24,7 @@ object Depends {
         const val bottomNavigationVersion = "1.6.0-alpha02"
         const val navigationVersion = "2.5.2"
         const val hiltVersion = "2.40.1"
-        const val kotlinGradlePluginVersion = "1.6.10"
+        const val kotlinGradlePluginVersion = "1.7.20"
         const val roomVersion = "2.2.6"
         const val coroutinesCoreVersion = "1.5.0"
         const val coroutinesAndroidVersion = "1.6.0"
