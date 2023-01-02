@@ -42,7 +42,6 @@ android {
 }
 
 dependencies {
-    // test
     implementation(project(":domain"))
 
     implementation(Depends.Libraries.android_core_ktx)
